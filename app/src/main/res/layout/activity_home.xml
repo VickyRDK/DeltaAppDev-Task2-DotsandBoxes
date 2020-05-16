@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/brown"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="276dp"
+        android:src="@drawable/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/player"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/custom_buttonred"
+        android:text="EXIT GAME" />
+
+    <Button
+        android:id="@+id/player1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="PLAY GAME"
+        android:background="@drawable/custom_button"
+        />
+
+
+</RelativeLayout>
